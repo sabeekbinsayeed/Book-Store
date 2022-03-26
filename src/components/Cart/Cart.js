@@ -1,8 +1,12 @@
 import React from 'react';
 
-const Cart = () => {
+const Cart = (props) => {
+    const { name } = props.cart;
+
     return (
         <div>
+            <h1>{name}</h1>
+
 
         </div>
     );
