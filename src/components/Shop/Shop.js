@@ -73,7 +73,7 @@ const Shop = () => {
                 {
                     carts.map(cart => <Cart cart={cart} key={cart.id}></Cart>)
                 }
-                <button onClick={() => handleDelete()}>chose me</button>
+                <button onClick={() => handleDelete()}> select 1</button>
                 <button onClick={() => handleRemoveAll()}> clear</button>
             </div>
 
